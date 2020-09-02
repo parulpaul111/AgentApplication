@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="Constituency_Name">Constituency</string>
+    <string name="Ward_Name">Ward</string>
+    <string name="Area_Name">Area</string>
+    <string name="Block_Name">Block</string>
+    <string name="Gram_Panchayat_Name">Gram Panchayat Name</string>
+
+    <string-array name="TypeofElections">
+        <item >"Gram Panchayat Elections"</item>
+        <item>"Zila Panchayat Sadasya Elections"</item>
+        <item>"Municipality Elections"</item>
+        <item>"Municipal Corporation Elections"</item>
+        <item>"Nagar Panchayat Sadasya Elections"</item>
+        <item>"State Assembly Elections"</item>
+
+
+    </string-array>
+
+    <string name="Gram_Panchayat_ELections">Gram Panchayat Elections</string>
+    <string name="Zila_Panchayat_Elections">Zila Panchayat Elections</string>
+    <string name="Municipality_Elections">Municipality Elections</string>
+    <string name="Municipal_Corporation_Elections">Municipal Corporation Elections</string>
+    <string name="Nagar_Panchayat_Sadasya_Elections">Nagar Panchayat Sadasya Elections</string>
+    <string name="State_Assembly_Elections">State Assembly Elections</string>
+
+
+</resources>

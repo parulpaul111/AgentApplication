@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:text="Name"></TextView>
+
+            <EditText
+                android:id="@+id/candidate_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearlayout">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"></TextView>
+
+            <EditText
+                android:id="@+id/candidate_Age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""></EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearlayout1">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"></TextView>
+
+            <EditText
+                android:id="@+id/candidate_Gender"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""></EditText>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearlayout2">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Political Party"></TextView>
+
+            <EditText
+                android:id="@+id/Political_Party"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=""></EditText>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout3">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Political Experience"></TextView>
+
+        <EditText
+            android:id="@+id/Political_Experience"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=""></EditText>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout4">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Election_Type"></TextView>
+
+
+        <Spinner
+            android:id="@+id/Election_Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+           ></Spinner>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout6"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout5">
+
+
+        <Button
+            android:id="@+id/agenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Chunnavi Mudde" />
+
+
+        <Button
+            android:id="@+id/Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:text="Profile"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Political_background_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Political Background History"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout6"
+        />
+
+
+
+
+
+
+
+    <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Political_background_history"
+             />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
