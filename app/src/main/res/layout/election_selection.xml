@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    tools:context=".ElectionSelectionActivity"
+    android:background="@drawable/bg1">
 
     <GridLayout
         android:id="@+id/candidate_political_background_history"
@@ -25,7 +26,8 @@
             android:layout_row="0"
             android:layout_column="0"
             android:padding="10dp"
-            android:text="Sr.No" />
+         android:hint="@string/srno"
+            android:textColorHint="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -34,7 +36,8 @@
             android:layout_column="1"
 
             android:padding="10dp"
-            android:text="Election-Type\nContested Previously" />
+           android:hint="@string/electiontype"
+            android:textColorHint="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -42,8 +45,9 @@
             android:layout_row="0"
             android:layout_column="2"
             android:padding="10dp"
-
-            android:text="Year" />
+              android:textColorHint="@color/black"
+            android:hint="@string/result"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -51,7 +55,8 @@
             android:layout_row="0"
             android:layout_column="3"
             android:padding="10dp"
-            android:text="Result" />
+            android:hint="@string/result"
+            android:textColorHint="@color/black"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -59,6 +64,7 @@
 
             android:layout_row="1"
             android:layout_column="0"
+            android:textColor="@color/black"
             android:hint="1"
             android:padding="10dp"
             android:textColorHint="@android:color/black" />

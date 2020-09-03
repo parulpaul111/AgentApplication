@@ -1,28 +1,40 @@
-<resources>
-    <string name="app_name">App1</string>
-    <string name="Constituency_Name">Constituency</string>
-    <string name="Ward_Name">Ward</string>
-    <string name="Area_Name">Area</string>
-    <string name="Block_Name">Block</string>
-    <string name="Gram_Panchayat_Name">Gram Panchayat Name</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AgentApp</string>
+    <string name="candidateprofile">Candidate Profile</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="politicalparty">Political Party</string>
+    <string name="politicalexperience">Political Experience</string>
+    <string name="fathername">Father Name</string>
+    <string name="mothernamde">Mothers Name</string>
+    <string name="spousename">Spouse Name</string>
+    <string name="education">Education Qualification</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="networth">Net Worth</string>
+    <string name="personaldetail">Personal Detail</string>
+    <string name="done">Done</string>
+    <string name="srno">Serial Number</string>
+    <string name="electiontype">Election-Type\nContested Previously"</string>
+    <string name="result">Result</string>
+    <string name="year">Year</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="Gram_Panchayat_Name">Gram Panchayat Elections</string>
+    <string name="Ward_Name">Ward Name</string>
+    <string name="Area_Name">Area Name</string>
+    <string name="Block_Name">Block Name</string>
+    <string name="Constituency_Name">Constituency Name</string>
+
 
     <string-array name="TypeofElections">
-        <item >"Gram Panchayat Elections"</item>
-        <item>"Zila Panchayat Sadasya Elections"</item>
-        <item>"Municipality Elections"</item>
-        <item>"Municipal Corporation Elections"</item>
-        <item>"Nagar Panchayat Sadasya Elections"</item>
-        <item>"State Assembly Elections"</item>
-
-
+        <item> <string name="Gram_Panchayat_ELections">Gram Panchayat Elections</string></item>
+        <item> <string name="Zila_Panchayat_Elections">Zila Panchayat Elections</string></item>
+        <item><string name="Municipality_Elections">Municipality Elections</string></item>
+        <item><string name="Municipal_Corporation_Elections">Municipal Corporation Elections</string></item>
+        <item><string name="Nagar_Panchayat_Sadasya_Elections">Nagar Panchayat Sadasya Elections</string></item>
+        <item> <string name="State_Assembly_Elections">State Assembly Elections</string></item>
     </string-array>
-
-    <string name="Gram_Panchayat_ELections">Gram Panchayat Elections</string>
-    <string name="Zila_Panchayat_Elections">Zila Panchayat Elections</string>
-    <string name="Municipality_Elections">Municipality Elections</string>
-    <string name="Municipal_Corporation_Elections">Municipal Corporation Elections</string>
-    <string name="Nagar_Panchayat_Sadasya_Elections">Nagar Panchayat Sadasya Elections</string>
-    <string name="State_Assembly_Elections">State Assembly Elections</string>
 
 
 </resources>
