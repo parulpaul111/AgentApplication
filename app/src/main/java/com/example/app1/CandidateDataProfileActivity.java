@@ -142,17 +142,17 @@ public class CandidateDataProfileActivity extends AppCompatActivity {
                         Intent intent = new Intent(CandidateDataProfileActivity.this, ElectionNamesActivity.class);
 
                         if (adapterView.getSelectedItem().toString().equals(election_names[0])){
-                            intent.putExtra("election_name",adapterView.getSelectedItem().toString());
+                            intent.putExtra("chunnavi_mudde",adapterView.getSelectedItem().toString());
 
                         }else if (adapterView.getSelectedItem().toString().equals(election_names[1])){
-                            intent.putExtra("election_name",adapterView.getSelectedItem().toString());
+                            intent.putExtra("chunnavi_mudde",adapterView.getSelectedItem().toString());
 
                         }else if (adapterView.getSelectedItem().toString().equals(election_names[2]) || adapterView.getSelectedItem().toString().equals(election_names[3]) || adapterView.getSelectedItem().toString().equals(election_names[4]) ){
-                            intent.putExtra("election_name",adapterView.getSelectedItem().toString());
+                            intent.putExtra("chunnavi_mudde",adapterView.getSelectedItem().toString());
 
 
                         }else {
-                            intent.putExtra("election_name",adapterView.getSelectedItem().toString());
+                            intent.putExtra("chunnavi_mudde",adapterView.getSelectedItem().toString());
 
                         }
                         startActivity(intent);

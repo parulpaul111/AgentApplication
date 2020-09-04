@@ -23,7 +23,7 @@ public class ElectionNamesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.election_name);
+        setContentView(R.layout.chunnavi_mudde);
 
         all_variables();
 
@@ -72,17 +72,11 @@ public class ElectionNamesActivity extends AppCompatActivity {
     }
 
     private void all_variables() {
-        editText1 = findViewById(R.id.candidate_state);
-        editText2 = findViewById(R.id.candidate_district);
-        editText3 = findViewById(R.id.edit_text);
-        editText4 = findViewById(R.id.edit_text1);
-
-        textView = findViewById(R.id.text_view1);
-        textView1 = findViewById(R.id.text_view2);
+      
 
 
         intent = getIntent();
-        Election_Name = intent.getStringExtra("election_name");
+        Election_Name = intent.getStringExtra("chunnavi_mudde");
 
 
         editText1.setText(CandidateDataProfileActivity.State_Name);

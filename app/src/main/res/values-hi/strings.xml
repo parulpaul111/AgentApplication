@@ -24,6 +24,13 @@
     <string name="Area_Name">क्षेत्र का नाम</string>
     <string name="Block_Name">ब्लॉक नाम </string>
     <string name="Constituency_Name">निर्वाचन क्षेत्र का नाम</string>
+    <string name="Agenda">कार्यसूची</string>
+    <string name="Agenda1">अपना पहला एजेंडा दर्ज करें</string>
+    <string name="Agenda2">अपना दूसरा एजेंडा दर्ज करें</string>
+    <string name="Agend3">अपना तीसरा एजेंडा दर्ज करें</string>
+    <string name="Agend4">अपना चौथा एजेंडा दर्ज करें</string>
+    <string name="Agenda5">अपना पांचवा एजेंडा दर्ज करें</string>
+
 
 
 

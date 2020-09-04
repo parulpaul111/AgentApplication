@@ -25,6 +25,13 @@
     <string name="Area_Name">Area Name</string>
     <string name="Block_Name">Block Name</string>
     <string name="Constituency_Name">Constituency Name</string>
+    <string name="Agenda">Agenda</string>
+    <string name="Agenda1">Enter your first agenda</string>
+    <string name="Agenda2">Enter you second agenda</string>
+    <string name="Agend3">Enter your third agenda</string>
+    <string name="Agend4">Enter your fourth agenda</string>
+    <string name="Agenda5">Enter your fifth agenda</string>
+
 
 
     <string-array name="TypeofElections">
