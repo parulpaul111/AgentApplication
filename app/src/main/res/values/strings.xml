@@ -15,9 +15,6 @@
     <string name="personaldetail">Personal Detail</string>
     <string name="done">Done</string>
     <string name="srno">Serial Number</string>
-    <string name="electiontype">Election-Type\nContested Previously"</string>
-    <string name="result">Result</string>
-    <string name="year">Year</string>
     <string name="state">State</string>
     <string name="district">District</string>
     <string name="Gram_Panchayat_Name">Gram Panchayat Elections</string>
@@ -31,7 +28,12 @@
     <string name="Agend3">Enter your third agenda</string>
     <string name="Agend4">Enter your fourth agenda</string>
     <string name="Agenda5">Enter your fifth agenda</string>
-
+    <string name="Politicalview">Political Background</string>
+    <string name="serialno">Serial no</string>
+    <string name="electiontype">Election Type</string>
+    <string name="constituency">Constituency</string>
+    <string name="year">Year</string>
+    <string name="result">Result</string>
 
 
     <string-array name="TypeofElections">

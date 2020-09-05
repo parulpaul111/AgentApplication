@@ -14,9 +14,6 @@
     <string name="networth">कुल मूल्य</string>
     <string name="personaldetail">व्यक्तिगत जानकारी</string>
     <string name="done">किया हुआ</string> <string name="srno">अनु क्रमांक</string>
-    <string name="electiontype">चुनाव-प्रकार \ n पहले किया गया "</string>
-    <string name="result">परिणाम</string>
-    <string name="year">साल</string>
     <string name="state">राज्य</string>
     <string name="district">जिला</string>
     <string name="Gram_Panchayat_Name">ग्राम पंचायत चुनाव</string>
@@ -30,6 +27,13 @@
     <string name="Agend3">अपना तीसरा एजेंडा दर्ज करें</string>
     <string name="Agend4">अपना चौथा एजेंडा दर्ज करें</string>
     <string name="Agenda5">अपना पांचवा एजेंडा दर्ज करें</string>
+    <string name="Politicalview">राजनीतिक पृष्ठभूमि</string>
+    <string name="serialno">अनु क्रमांक</string>
+    <string name="electiontype">चुनाव का प्रकार</string>
+    <string name="constituency">चुनाव क्षेत्र</string>
+    <string name="year">साल</string>
+    <string name="result">परिणाम</string>
+
 
 
 

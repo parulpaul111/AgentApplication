@@ -62,7 +62,7 @@ public class CandidateDataProfileActivity extends AppCompatActivity {
         political_background_history.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CandidateDataProfileActivity.this, ElectionSelectionActivity.class);
+                Intent intent = new Intent(CandidateDataProfileActivity.this, PloiticalBackgroundActivity.class);
                 startActivity(intent);
 
             }

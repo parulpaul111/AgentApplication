@@ -72,7 +72,7 @@ public class ElectionNamesActivity extends AppCompatActivity {
     }
 
     private void all_variables() {
-      
+
 
 
         intent = getIntent();
