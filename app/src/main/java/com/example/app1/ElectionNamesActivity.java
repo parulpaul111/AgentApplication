@@ -23,7 +23,7 @@ public class ElectionNamesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chunnavi_mudde);
+        setContentView(R.layout.election_name);
 
         all_variables();
 
